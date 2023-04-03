@@ -1,5 +1,6 @@
 import CountriesList from "./List/CountriesList";
 import { useState, useEffect, useCallback } from "react"
+import Navbar from "./Navbar";
 
 
 function Countries(){
@@ -36,8 +37,10 @@ function Countries(){
     }
     return(
         <>
-        <div className="row  container">
+        <div className="">
+        <Navbar/>
             {page}
+           
         
         </div>
 

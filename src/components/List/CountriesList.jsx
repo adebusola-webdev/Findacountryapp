@@ -5,10 +5,10 @@
 function CountriesList({country}){
     return(
     <>
-     <div className="row ">
+     <div className=" d-flex flex-wrap justify-content-evenly">
         {country.map((item,index)=>{
               return(
-                <div className="card col-4 mb-5 m-4 shadow w-100 text-danger" key={index}>
+                <div className="card col-4 mb-5 shadow  text-danger" key={index}>
                     <div>
                         <div>  <img src={item.flags.png}/></div>
                      
