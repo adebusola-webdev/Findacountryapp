@@ -1,6 +1,7 @@
 import CountriesList from "./List/CountriesList";
 import { useState, useEffect, useCallback } from "react"
 import Navbar from "./Navbar";
+import { Search } from "./Search";
 
 
 function Countries(){
@@ -39,6 +40,7 @@ function Countries(){
         <>
         <div className="">
         <Navbar/>
+        
             {page}
            
         
